@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FD5D38C12ECE07E200F2815F /* Uzu in Frameworks */ = {isa = PBXBuildFile; productRef = FD5D38C02ECE07E200F2815F /* Uzu */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FD5D38B12ECE079D00F2815F /* DiplomAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5D38C12ECE07E200F2815F /* Uzu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = DiplomAI;
 			packageProductDependencies = (
+				FD5D38C02ECE07E200F2815F /* Uzu */,
 			);
 			productName = DiplomAI;
 			productReference = FD5D38B12ECE079D00F2815F /* DiplomAI.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = FD5D38A82ECE079D00F2815F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FD5D38BF2ECE07E200F2815F /* XCRemoteSwiftPackageReference "uzu-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FD5D38B22ECE079D00F2815F /* Products */;
 			projectDirPath = "";
@@ -251,6 +260,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJMGC642FN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJMGC642FN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -328,6 +339,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD5D38BF2ECE07E200F2815F /* XCRemoteSwiftPackageReference "uzu-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trymirai/uzu-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.46;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD5D38C02ECE07E200F2815F /* Uzu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD5D38BF2ECE07E200F2815F /* XCRemoteSwiftPackageReference "uzu-swift" */;
+			productName = Uzu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD5D38A92ECE079D00F2815F /* Project object */;
 }
